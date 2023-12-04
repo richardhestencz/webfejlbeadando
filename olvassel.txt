@@ -1,0 +1,17 @@
+Oldal készítőjének a neve:Hestencz Richárd
+
+Github link:
+
+Rövid ismertető: Ez az oldal egyik kedvenc játékomat mutatja be. Azon belül is az éppen most aktuális hírekkel, játékmódokkal és egyéb fontos információkkal.
+
+Saját JS kód: A "Gamemodes" nevű oldalon található, arra funkciónál hogy a szövegeket görgetés helyett egy gombnyomással mutassa meg, ezzel  struktúráltabbá téve az oldalt.
+
+Minden oldalon, minden szövere egyedi font típust helyeztem el. ("BeaufortForLoL","Spiegel") A betűtípust a "League of Legends" hivatalos oldaláról töltöttem le és a szabályzatnak megfelelően használtam.
+
+Használt linkek
+
+deviantart.com (hatterkep, pinterest)
+https://leagueoflegends.fandom.com/wiki/Map_(League_of_Legends) (map)
+https://brand.riotgames.com (font, color, logos, fundamentals)
+
+

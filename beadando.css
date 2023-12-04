@@ -1,0 +1,559 @@
+
+/*====ALTALANOS====*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body
+{
+margin: 0; /*kulcselem*/
+padding: 0; /*kulcselem*/
+background-color: #091428; 
+font-family: "Bigfont";
+font-size: 1.2em;
+}
+
+@font-face {
+    font-family: 'Bigfont';
+    src: url("fonts/BeaufortforLOL-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: 'Notasbig';
+    src: url("fonts/BeaufortforLOL-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "Littlem";
+    src: url("fonts/Spiegel_TT_Bold_Italic.ttf");
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url("fonts/Spiegel_TT_Regular.ttf");
+}
+
+
+/*====Navigáció====*/
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: flex-end;
+    margin: 0;
+    padding: 5em 0em 0em 0em;
+    
+    
+   
+    
+}
+
+.container>* {
+    height: fit-content;
+    margin: 0.2%;
+    
+    
+}
+
+nav {
+    padding: 8px;
+    
+}
+
+nav li a{
+    display: block;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+    flex: 1 1 100%;
+    margin: 0;
+    color: #F0E6D2;
+    background-color:#5b5a5652;
+    border-radius: 0.3em;
+    font-family: "LitTlem";
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    font-size: 1.7em;
+    list-style-type: none;
+    font-weight: bold;
+    padding: 0.3em 0.1em 0.1em 0.3em;
+    flex: 1 1 100%;
+    text-align: center;
+   
+}
+   
+
+    
+nav ul li a:hover {
+    color:#5b5a56;
+    background-color:#F0E6D2
+   
+}
+
+
+#aktualis{
+    color:#5b5a56;
+    background-color:#F0E6D2;
+
+}
+
+/*====Cím,alcím====*/
+header h1 {
+    margin: 0;
+    padding: 0.2em;
+    font-size: 5em;
+    text-align: center;
+    color: #C89B3C;
+    background-color: #091428;
+    font-family: "Notasbig";
+    }
+
+header h4 {
+    margin: 0;
+    padding: 1em 1em 1em 1em;
+    font-size: 1em;
+    text-align: center;
+    color:#C89B3C;
+    background-color:  #091428;
+    
+    }
+
+section h2.elso {
+    margin: 0;
+    padding: 0.2em;
+    padding-bottom: 1em ;
+    font-size: 4em;
+    text-align: center;
+    color: #C89B3C;
+    background-color: #091428;
+    font-family: "Bigfont";
+}
+
+section h2.alcim {
+    margin: 0;
+    padding: 0.2em;
+    font-size: 2.5em;
+    text-align: left;
+    color: #C89B3C;
+    background-color: #091428;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    border-left: 1px #C89B3C solid;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 1%;
+    font-family: "Littlem";
+}
+
+
+section h2.kozepcim {
+    margin: 0;
+    padding: 0.2em;
+    font-size: 2.5em;
+    text-align: right;
+    color: #C89B3C;
+    background-color: #091428;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    border-right: 1px #C89B3C solid;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 1%;
+    font-family: "Littlem";
+}
+
+
+
+/*====galeria====*/
+.galleria {
+    margin: auto;
+    width: 60vw;
+    height: 80vw;
+}
+.galleria-theme-classic {
+    background-color: #091428;
+}
+
+
+
+/*====section====*/
+.hatter{
+    background-color: #091428;
+}
+
+section .balos {
+    color: #CDFAFA;
+    margin: 1%;
+}
+
+section .jobbos {
+    color: #CDFAFA;
+    margin: 1%;
+    text-align: right;
+    padding-bottom: 1em;
+}
+
+/*====hatter====*/
+#hatterkep {
+    background-image: url("hatter.png");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+/*====labjegyzet====*/
+footer{
+    color: #005A82;
+    text-align: center;
+    padding-top: 5rem ;
+    padding-bottom: 2em;
+}
+
+footer figure{
+    padding-bottom: 1%;
+}
+
+footer figure img{
+    max-height: 20%;
+    max-width: 20%;
+    
+}
+
+
+
+/*====Ideas====*/
+section article table tr td.bal{
+    display: block;
+    color: #CDFAFA;
+    text-align: left;
+}
+
+section article table{
+    margin: auto;
+    background-color: #0A1428;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+
+}
+
+section article table tr td.jobb{
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #CDFAFA;
+    text-align: left;
+    
+    
+}
+input.szelesseg {
+    width: 100%;
+  }
+
+input.idea{
+    width: 100%;
+    height: 6em;
+}
+
+p.elso{
+    text-align: center;
+}
+
+
+/*====champions====*/
+.karakterekbal{
+    display: flex;
+    color: #CDFAFA;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: left;
+    margin-left: 1%;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    
+   
+}
+p.karakterekbalos{
+    margin-right: 1%;
+    border-left: solid #C89B3C;
+    padding-left: 3% ;
+    text-align: center;
+
+}
+
+
+
+
+.karakterekjobb{
+    display: flex;
+    color: #CDFAFA;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: right;
+    margin-right: 1%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p.karakterekjobbos{
+    margin-left: 1%;
+    border-right: solid #C89B3C;
+    padding-right: 3% ;
+    text-align: center;
+
+}
+
+#hely{
+    padding-top: 3em;
+}
+
+.champs{
+    width: 100%;
+    border: solid #C89B3C;
+}
+/*====gamemodes====*/
+
+.felmozgo {
+    text-align: left;
+    margin-right: 1%;
+    padding-left: 20px;
+    color: #CDFAFA;
+    
+    
+    
+}
+
+
+#resulttitle{
+    display: flex;
+    transition: opacity 0.2s ease-in-out;
+}
+
+
+#resultgamemode{
+    display: flex;
+    transition: opacity 0.2s ease-in-out;
+}
+
+#resultlanetitle{
+    display: flex;
+    transition: opacity 0.2s ease-in-out;
+}
+
+
+#resultlane{
+    display: flex;
+    transition: opacity 0.2s ease-in-out;
+}
+
+
+
+.almozgo {
+    margin-left: 1%;
+    order: -1;
+    padding-right: 10px;
+    flex: 1 1 100%;
+    color: #CDFAFA;
+
+    
+}
+.almozgo ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-inline-start: 1%;
+    padding-inline-end: 1%;
+    
+    
+
+}
+
+
+.almozgo ul li{
+    display:block;
+    list-style-type: none;
+    font-size: 1.2em;
+    color: #A09B8C;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+
+.almozgo ul li:hover{
+    color: #C89B3C;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    background-color:#c89c3c44;
+}
+
+.egeszmozgo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*====ranks====*/
+
+section.rangok {
+    flex: 1 1 316.5px;
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid #bdc3c7;
+    border-radius: 8px;
+    text-align: center;
+    vertical-align: middle;
+
+
+}
+
+section.rangok table{
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+section.rangok p{
+    color: #CDFAFA;
+}
+
+section.rangok h2{
+    color: #C89B3C;
+}
+
+#rangok {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+
+
+
+}
+
+
+/*====ideas====*/
+
+  input[type="range"] {
+    width: 80%; 
+    margin-top: 25px;
+  }
+
+
+  input[type="submit"],
+    input[type="reset"] {
+      font-size: 16px; 
+      padding: 8px 16px; 
+      background-color: #C89B3C; 
+      color: #F0E6D2; 
+      border: none; 
+      cursor: pointer; 
+      border-radius: 5px; 
+    }
+
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+      background-color: #A78333; 
+    }
+
+    label#useridea-error.error{
+        display: block;
+        flex-wrap: wrap;
+
+    }
+
+/*====reszponziv====*/
+@media all and (min-width: 750px) {
+ .container{
+    flex-wrap:nowrap;
+ }
+ section article table{
+    margin: auto;
+    display: table;
+    flex-wrap: wrap;
+ }
+
+ .karakterekbal{
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    flex: 1 1 100%;
+ }
+
+ .karakterekjobb{
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+ }
+
+ .champs{
+    width: 40vw;
+    border: solid #C89B3C;
+}
+
+  
+ section article table tr td.jobb{
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 20%;
+    display: table-cell;
+    vertical-align: top;
+    
+    
+    }
+
+    section article table tr td.bal{
+        padding-top: 0;
+        padding-bottom: 0;
+        display: table-cell;
+        vertical-align: top;
+        
+        
+        }
+
+
+    section article table tr td.jobb{
+        display: table;
+    }
+
+    /*====gamemodes====*/
+                nav,
+            header {
+                order: -1;
+            }
+
+            .almozgo {
+                flex: 1 1 24%;
+                border-right: solid #C89B3C;
+                border-bottom: none;
+                
+            }
+
+            .almozgo ul{
+                align-items: flex-start
+            }
+
+            .felmozgo {
+                flex: 1 1 74%;
+                
+            }
+    
+ }
