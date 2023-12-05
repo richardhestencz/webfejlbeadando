@@ -1,6 +1,6 @@
 Oldal készítőjének a neve:Hestencz Richárd
 
-Github link: https://github.com/richardhestencz/webfejlbeadando/tree/b73a1c10b1836c4a8dcdee923724aa34a24f024b
+Github link: https://richardhestencz.github.io/webfejlbeadando/
 
 Rövid ismertető: Ez az oldal egyik kedvenc játékomat mutatja be. Azon belül is az éppen most aktuális hírekkel, játékmódokkal és egyéb fontos információkkal.
 
